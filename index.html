@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2>🎬 Movie Explorer</h2>
+  </nav>
+
+  <section class="hero">
+    <h1>Discover Movies</h1>
+    <p>Search your favorite movies instantly</p>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search movies...">
+      <button onclick="searchMovies()">Search</button>
+    </div>
+  </section>
+
+  <p id="status"></p>
+
+  <section id="movies" class="movies-container"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
